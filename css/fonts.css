@@ -1,0 +1,63 @@
+@font-face {
+font-family: 'Cera Pro';
+src: url('../fonts/CeraPro-Regular.eot');
+src: url('../fonts/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/CeraPro-Regular.woff') format('woff'),
+url('../fonts/CeraPro-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Cera Pro';
+src: url('../fonts/CeraPro-Light.eot');
+src: url('../fonts/CeraPro-Light.eot?#iefix') format('embedded-opentype'),
+url('../fonts/CeraPro-Light.woff') format('woff'),
+url('../fonts/CeraPro-Light.ttf') format('truetype');
+font-weight: 300;
+font-style: normal;
+}
+@font-face {
+font-family: 'Cera Pro';
+src: url('../fonts/CeraPro-Medium.eot');
+src: url('../fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+url('../fonts/CeraPro-Medium.woff') format('woff'),
+url('../fonts/CeraPro-Medium.ttf') format('truetype');
+font-weight: 500;
+font-style: normal;
+}
+@font-face {
+font-family: 'Cera Pro';
+src: url('../fonts/CeraPro-Bold.eot');
+src: url('../fonts/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/CeraPro-Bold.woff') format('woff'),
+url('../fonts/CeraPro-Bold.ttf') format('truetype');
+font-weight: 700;
+font-style: normal;
+}
+@font-face {
+font-family: 'Cera Pro';
+src: url('../fonts/CeraPro-Black.eot');
+src: url('../fonts/CeraPro-Black.eot?#iefix') format('embedded-opentype'),
+url('../fonts/CeraPro-Black.woff') format('woff'),
+url('../fonts/CeraPro-Black.ttf') format('truetype');
+font-weight: 900;
+font-style: normal;
+}
+@font-face {
+font-family: 'Bebas Neue';
+src: url('../fonts/BebasNeueRegular.eot');
+src: url('../fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/BebasNeueRegular.woff') format('woff'),
+url('../fonts/BebasNeueRegular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Bebas Neue';
+src: url('../fonts/BebasNeueBold.eot');
+src: url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/BebasNeueBold.woff') format('woff'),
+url('../fonts/BebasNeueBold.ttf') format('truetype');
+font-weight: 700;
+font-style: normal;
+}
