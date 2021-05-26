@@ -74,7 +74,7 @@ $range.ionRangeSlider({
 });
 
 
-$range = $range.data("ionRangeSlider");
+$range = $range.data("ionRangeSlider"); 
 var updateValues = function() {
 	var res = $range.result;
 	$from.val(res.from, true);

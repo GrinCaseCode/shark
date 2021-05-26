@@ -206,6 +206,8 @@
 }
 }
 
+
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	.header-middle .search-form,
@@ -670,7 +672,7 @@ font-weight: 400;
     transition: all 0.2s ease-in;
 }
 .body-menu .menu-mobile__content {
-	width: 200px;
+	width: 200px; 
 }
 .wrapper {
 	position: relative;
@@ -994,6 +996,9 @@ position: absolute;
 	right: 10px;
 }
 }
+
+
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
