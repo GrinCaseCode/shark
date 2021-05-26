@@ -10,7 +10,7 @@
 		margin: 0 -15px;
 	}
 	.item-catalog__image {
-    height: 470px;
+    height: 470px; 
 }
 }
 @media only screen and (max-width : 1430px) {
