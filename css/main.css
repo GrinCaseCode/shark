@@ -24,7 +24,7 @@ body textarea:required:valid {
 	
 }
 body {
-	font-family: 'Cera Pro';
+	font-family: 'Cera Pro'; 
 	font-size: 16px;
 	overflow-x: hidden; 
 	margin: 0;
@@ -1777,4 +1777,16 @@ blockquote p {
 	left: 0;
 	right: 0;
 	text-align: center;
+}
+.questions-page .title-section {
+	text-align: center;
+}
+.block-ask {
+	padding: 20px 325px;
+	margin-top: 50px;
+	background-color: #f1f3f0;
+}
+.questions-page {
+	padding-top: 30px;
+	padding-bottom: 50px;
 }
