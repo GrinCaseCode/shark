@@ -39,6 +39,9 @@
     padding: 0 13px;
     margin-right: 6px;
 }
+.col_vacancies {
+    padding-right: 85px;
+}
 }
 @media only screen and (max-width : 1300px) {
 .title-big span {
@@ -93,6 +96,16 @@
     padding: 0 11px;
     margin-right: 4px;
     font-size: 12px;
+}
+.row_news > div {
+	padding: 0 15px;
+	margin-bottom: 40px;
+}
+.row_news {
+	margin: 0 -15px;
+}
+.col_vacancies {
+    padding-right: 115px;
 }
 }
 /* Large Devices, Wide Screens */
@@ -203,6 +216,14 @@
     padding: 0 14px;
     margin-right: 13px;
     font-size: 14px;
+}
+.vacancies .block-form {
+	width: 320px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.vacancies .block-form .checkbox_simple {
+	white-space: normal;
 }
 }
 
@@ -995,6 +1016,31 @@ position: absolute;
 .sorting-catalog  .jq-selectbox__trigger {
 	right: 10px;
 }
+.row_news .item-article__image {
+    height: 245px;
+}
+.pager_right {
+	margin-top: 0;
+	justify-content: center;
+}
+.col_vacancies {
+	padding-right: 15px;
+}
+.vacancies .block-form {
+	width: 370px;
+	max-width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0 auto;
+	float: none;
+	margin-top: 30px;
+}
+.vacancies .block-form .checkbox_simple {
+	white-space: nowrap;
+}
+.item-question__name {
+    font-size: 18px;
+}
 }
 
 
@@ -1036,6 +1082,43 @@ position: absolute;
 .pager {
 	margin-top: 0;
 }
+.news {
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+.pager_right .prev.page-numbers, .pager_right .next.page-numbers {
+	font-size: 15px;
+}
+.pager_right .prev.page-numbers {
+    margin-right: 8px;
+}
+.pager_right .next.page-numbers {
+	margin-left: 8px;
+}
+.pager_right .page-numbers {
+    width: 30px;
+    height: 30px;
+    margin: 0 3px;
+    font-size: 15px;
+    }
+    .row_news .item-article__image {
+    height: 205px;
+}
+.row_news > div {
+	margin-bottom: 30px;
+}
+}
+@media only screen and (max-width : 380px) {
+.vacancies .block-form .checkbox_simple {
+    white-space: normal;
+}
+.vacancies .block-form {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.block-form .checkbox_simple {
+	margin-top: 15px;
+}
 }
 @media only screen and (max-width : 350px) {
 .rating-site__descr {
@@ -1063,7 +1146,9 @@ position: absolute;
 .list-social_main li {
 	margin-right: 7px;
 }
-
+.item-question__name {
+    font-size: 17px;
+}
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {

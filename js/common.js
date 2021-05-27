@@ -15,6 +15,14 @@ $(document).ready(function() {
 		$(this).toggleClass("active");
 	});
 
+
+/*input file*/
+  $("input[type='file']").change(function(){
+    var filename_text = $(this).parent().siblings(".name-upload");
+    var filename = $(this).val().replace(/.*\\/, "");
+    filename_text.html(filename);
+  });
+
 	//кнопка sandwich
 	/*
 	$(".btn-menu").click(function() {
@@ -74,32 +82,37 @@ $range.ionRangeSlider({
 });
 
 
-$range = $range.data("ionRangeSlider"); 
-var updateValues = function() {
-	var res = $range.result;
-	$from.val(res.from, true);
-	$to.val(res.to,true)
-};
-$from.on("focus", function() {
-	this.value = this.value;
-	this.focus();
-	this.selectionStart = this.value.length
-}).on("input", function() {
-	$range.update({
-		from: this.value
-	})
-}).on("blur", updateValues);
-$to.on("focus", function() {
-	this.value = this.value;
-	this.focus();
-	this.selectionStart = this.value.length
-}).on("input", function() {
-	$range.update({
-		to: this.value
-	})
-}).on("blur", updateValues)
-});
+ function number_format(num, format) {
+        num = (num + "").replace(/(\s)+/g, "");
+        return format ? num.replace(/(\d{1,3})(?=(?:\d{3})+$)/g, "$1 ") : num
+    }
+    $range = $range.data("ionRangeSlider");
+    var updateValues = function() {
+        var res = $range.result;
+        $from.val(number_format(res.from, true) + ".00");
+        $to.val(number_format(res.to,true) + ".00")
+    };
+    $from.on("focus", function() {
+        this.value = number_format(this.value);
+        this.focus();
+        this.selectionStart = this.value.length
+    }).on("input", function() {
+        $range.update({
+            from: this.value
+        })
+    }).on("blur", updateValues);
+    $to.on("focus", function() {
+        this.value = number_format(this.value);
+        this.focus();
+        this.selectionStart = this.value.length
+    }).on("input", function() {
+        $range.update({
+            to: this.value
+        })
+    }).on("blur", updateValues)
 
+
+});
 
 $(".item-filter__head").click(function() {
 		$(this).parent().toggleClass("active");
