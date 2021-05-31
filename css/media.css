@@ -13,6 +13,8 @@
     height: 470px; 
 }
 }
+
+
 @media only screen and (max-width : 1430px) {
 .slider-wrap-catalog {
 	padding: 0 20px;
@@ -20,7 +22,7 @@
 .item-catalog__name {
     font-size: 16px;
     }
-    .item-catalog__image {
+    .item-catalog__image { 
     height: 425px; 
 }
 .item-review {
@@ -42,7 +44,13 @@
 .col_vacancies {
     padding-right: 85px;
 }
+.block-ask {
+	padding-left: 300px;
+	padding-right: 300px;
 }
+}
+
+
 @media only screen and (max-width : 1300px) {
 .title-big span {
     font-size: 54px;
@@ -106,6 +114,14 @@
 }
 .col_vacancies {
     padding-right: 115px;
+}
+.contacts .block-form {
+	max-width: 100%;
+	float: none;
+}
+.block-ask {
+	padding-left: 200px;
+	padding-right: 200px;
 }
 }
 /* Large Devices, Wide Screens */
@@ -224,6 +240,25 @@
 }
 .vacancies .block-form .checkbox_simple {
 	white-space: normal;
+}
+.contacts .block-form {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.contacts .checkbox-wrap .checkbox {
+    white-space: normal;
+}
+.block-ask {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.table-block {
+	padding: 0;
+	background-color: transparent;
+}
+.block-form-sizes {
+	padding-left: 70px;
+	padding-right: 70px;
 }
 }
 
@@ -1041,6 +1076,72 @@ position: absolute;
 .item-question__name {
     font-size: 18px;
 }
+.contact-block {
+	max-width: 100%;
+}
+.contacts .row {
+	justify-content: center;
+}
+.contact-block_center {
+	padding-bottom: 0;
+}
+.contacts .block-form {
+	margin-top: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+#map {
+	height: 400px;
+}
+.block-ask {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+/*scroll for table*/
+.table-wrap::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+.table-wrap::-webkit-scrollbar:vertical {
+    width: 3px;
+}
+.table-wrap::-webkit-scrollbar:horizontal {
+    height: 3px;
+}
+.table-wrap::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+.table-wrap::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ccc;
+}
+.table-block__wrap {
+	padding: 0;
+}
+.table-wrap {
+	margin-right: -15px;
+	overflow: auto;
+}
+.table-wrap table tbody td {
+	padding: 0px 10px;
+}
+.title-page {
+    font-size: 25px;
+}
+.fancybox-wrap_table {
+	width: 100% !important;
+	left: 0 !important;
+	right: 0 !important;
+}
+.fancybox-wrap_table .fancybox-inner {
+	width: 100% !important;
+}
+.fancybox-wrap_table .table-wrap {
+	margin-right: 0;
+}
+.modal-block .table-block__wrap {
+	padding: 25px 0;
+}
 }
 
 
@@ -1054,6 +1155,20 @@ position: absolute;
 }
 .row_catalog .item-catalog__image {
     height: 330px;
+}
+.contact-block .list-social {
+	margin: 0;
+	margin-top: 30px;
+	justify-content: flex-start;
+}
+.contact-block {
+	display: block;
+}
+#map {
+	height: 360px;
+}
+.contacts .title-section {
+	padding-bottom: 20px;
 }
 }
 @media only screen and (max-width : 575px) {
@@ -1107,6 +1222,58 @@ position: absolute;
 .row_news > div {
 	margin-bottom: 30px;
 }
+.contact-block {
+	font-size: 16px;
+	padding: 20px;
+}
+.contact-block_center {
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+}
+.contacts .block-form {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#map {
+	height: 300px;
+}
+.block-ask {
+	padding-top: 30px;
+}
+.questions-page .title-section {
+	padding-bottom: 25px;
+}
+.block-ask {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	margin-top: 30px;
+}
+.block-ask .checkbox {
+	white-space: normal;
+}
+.table-wrap table tbody td:first-child {
+	font-size: 14px;
+}
+.table-wrap table thead {
+	font-size: 14px;
+}
+.table-wrap table tbody td {
+    font-size: 13px;
+    line-height: 41px;
+    }
+    .block-form-sizes {
+    	padding-left: 20px;
+    	padding-right: 20px;
+    }
+    .sizes p {
+    	font-size: 14px;
+    	line-height: 22px;
+    }
+    .sizes .block-form-sizes {
+    	margin-bottom: 25px;
+    }
 }
 @media only screen and (max-width : 380px) {
 .vacancies .block-form .checkbox_simple {
@@ -1149,6 +1316,7 @@ position: absolute;
 .item-question__name {
     font-size: 17px;
 }
+
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {

@@ -390,6 +390,13 @@ $(".sidebar-open").click(function() {
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
 	$(".fancybox").fancybox();
 
+	$(".fancybox-table").fancybox({
+    beforeShow : function(){
+      $(".fancybox-wrap").addClass("fancybox-wrap_table");
+      
+    }
+  });
+
 
 	//Кнопка "Наверх"
 	//Документация:
