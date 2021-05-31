@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.9" />
+	<link rel="stylesheet" href="css/media.css?ver=1.9" />
+</head>
+<body> 
+
+	<div class="wrapper-main">
+
+		<div class="menu-overlay"></div>
+
+
+		<div class="menu-mobile">
+			<div class="menu-mobile__content">
+				<ul>
+					<li><a href="#"><span class="menu-mobile__icon"><i class="far fa-home-alt"></i></span>Главная</a></li>
+					<li><a href="#"><span class="menu-mobile__icon"><i class="fas fa-list-ul"></i></span>Каталог</a></li>
+					<li><a href="#"><span class="menu-mobile__icon"><img src="img/ic_menu3.png" alt="alt"></span>Покупателям</a></li>
+					<li><a href="#"><span class="menu-mobile__icon"><i class="far fa-bookmark"></i></span>О компании</a></li>
+					<li><a href="#"><span class="menu-mobile__icon"><i class="far fa-newspaper"></i></span>Новости</a></li>
+					<li><a href="#"><span class="menu-mobile__icon"><i class="fal fa-map-marker-alt"></i></span>Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="buttons-header buttons-header_mobile">
+			<a href="#" class="btn-header btn-header_home"><i class="far fa-home-alt"></i></a>
+			<a href="#" class="btn-header"><i class="far fa-user-circle"></i></a>
+			<a href="#" class="btn-header"><i class="far fa-heart"></i></a>
+			<a href="#" class="btn-header btn-header_basket"><i class="far fa-shopping-bag"></i><span class="btn-header__value">1</span></a>
+		</div>
+
+		<div class="wrapper">
+
+			<header class="header">
+				<div class="header-top">
+					<div class="container">
+						<div class="header-top__wrap"> 
+							<div class="rating-site">
+								<ul class="rating rating_4">
+									<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+									<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+									<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+									<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+									<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+								</ul>
+								<div class="rating-site__descr"><strong>4.8</strong> из 5 на основе 7,052 отзывов</div>
+							</div>
+							<ul class="list-language">
+								<li><a href="#">RU</a></li>
+								<li><a href="#">RUB</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="header-middle">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-lg-4 col-3">
+								<div class="search-form">
+									<form>
+										<input type="text" placeholder="Поиск" required="required">
+										<button class="btn-search"><i class="far fa-search"></i></button>
+									</form>
+								</div>
+								<div class="btn-menu">
+									<div class="btn-menu__dot"></div>
+									<div class="btn-menu__dot"></div>
+									<div class="btn-menu__dot"></div>
+									<div class="btn-menu__dot"></div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 header-middle__center">
+								<a href="#" class="logo">
+									<img src="img/logo.png" alt="alt">
+								</a>
+							</div>
+							<div class="col-lg-4 col-3">
+								<div class="align-right">
+									<div class="language-block">
+										<div class="language-block__value">RU <i class="far fa-chevron-down"></i></div>
+										<div class="language-block__dropdown">
+											<ul>
+												<li><a href="#">RU</a></li>
+												<li><a href="#">RUB</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="buttons-header">
+									<a href="#" class="btn-header btn-header_home"><i class="far fa-home-alt"></i></a>
+									<a href="#" class="btn-header"><i class="far fa-user-circle"></i></a>
+									<a href="#" class="btn-header"><i class="far fa-heart"></i></a>
+									<a href="#" class="btn-header btn-header_basket"><i class="far fa-shopping-bag"></i><span class="btn-header__value">1</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header-bottom">
+					<div class="container">
+						<ul class="menu">
+							<li><a href="#">Новинки</a></li>
+							<li><a href="#">Самые желанные</a></li>
+							<li><a href="#">Для Pole Dance</a></li>
+							<li><a href="#">Для фитнеса</a></li>
+							<li><a href="#">Купальники</a></li>
+							<li><a href="#">Аксессуары</a></li>
+							<li><a href="#">Для дома</a></li>
+							<li><a href="#">Ресток</a></li>
+							<li><a href="#">Распродажа</a></li>
+							<li><a href="#">Подарочные карты</a></li>
+							<li><a href="#">Опт</a></li>
+						</ul>
+					</div>
+				</div>
+			</header>
+
+			<div class="catalog">
+				<div class="container">
+					<div class="title-page title-page_showmob">топы</div>
+					<div class="row">
+						<div class="col-xl-2 col-lg-3 col_pr">
+							<div class="sidebar-open btn-main">Фильтр по параметрам<i class="fas fa-filter"></i></div>
+							<div class="sidebar-catalog">
+								<div class="item-filter active">
+									<div class="item-filter__head">Комплектация <i class="fas fa-chevron-down"></i></div>
+									<div class="item-filter__content" style="display: block;">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span>С чашечками</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span>Без чашечек</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span>С рукавом</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span>Без рукава</span>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="item-filter active">
+									<div class="item-filter__head">Комплектация <i class="fas fa-chevron-down"></i></div>
+									<div class="item-filter__content" style="display: block;">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span> <span class="checkbox__color" style="background: #f3e3c0;"></span>Бежевый</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span> <span class="checkbox__color" style="background: #ffffff;"></span>Белый</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span> <span class="checkbox__color" style="background: #4ce3da;"></span>Бирюзовый</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span> <span class="checkbox__color" style="background: #9b1600;"></span>Бордовый</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span> <span class="checkbox__color" style="background: #d3c236;"></span>Бронза</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span> <span class="checkbox__color" style="background: #62b6fe;"></span>Голубой</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span> <span class="checkbox__color" style="background: #f3bf22;"></span>Горчичный</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span> <span class="checkbox__color" style="background: #f4fd05;"></span>Желтый</span>
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" />
+												<span> <span class="checkbox__color" style="background: #74dc79;"></span>Зеленый</span>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="item-filter active">
+									<div class="item-filter__head">Цена: <i class="fas fa-chevron-down"></i></div>
+									<div class="item-filter__content" style="display: block;">
+										<div class="range-catalog range-catalog_price">
+											<div class="row">
+												<div class="col-6">
+													<div class="item-form">
+														<input type="text" maxlength="4" value="27.00" class="control-input control-input__from" />
+													</div>
+												</div>
+												<div class="col-6">
+													<div class="item-form">
+														<input type="text" maxlength="4" value="150.00" class="control-input control-input__to" />
+													</div>
+												</div>
+											</div>
+											<input type="text" class="range-catalog__input" name="my_range" value="" />
+										</div>
+									</div>
+								</div>
+								<div class="buttons-sidebar">
+									<button class="btn-main">применить</button>
+									<button class="link-main">Очистить</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-10 col-lg-9 col_catalog">
+							<div class="title-page title-page_hiddenmob">топы</div>
+							<div class="sorting-catalog">
+								<p>Сортировать по:</p>
+								<a href="#" class="link-sorting active">по цене</a>
+								<a href="#" class="link-sorting">по популярности</a>
+								<a href="#" class="link-sorting">по алфавиту</a>
+								<a href="#" class="link-sorting">новое старое</a>
+								<div class="item-form">
+									<select>
+										<option value="1">по цене</option>
+										<option value="1">по популярности</option>
+										<option value="1">по алфавиту</option>
+										<option value="1">новое старое</option>
+									</select>
+								</div>
+							</div>
+							<div class="row row_catalog">
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<a href="#" class="item-catalog">
+										<span class="item-catalog__image">
+											<img src="img/catalog4.jpg" alt="alt">
+										</span>
+										<span class="item-catalog__name">Топ зебра Teola Oksa</span>
+										<span class="item-catalog__bottom">
+											<span class="item-catalog__oldprice">$ 120.00</span>
+											<span class="item-catalog__price">$ 83.00</span>
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<a href="#" class="item-catalog">
+										<span class="item-catalog__image">
+											<img src="img/catalog3.jpg" alt="alt">
+										</span>
+										<span class="item-catalog__name">Высокие шорты и двусторонний топ</span>
+										<span class="item-catalog__bottom">
+											<span class="item-catalog__oldprice">$ 150.00</span>
+											<span class="item-catalog__price">$ 130.00</span>
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<a href="#" class="item-catalog">
+										<span class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+										</span>
+										<span class="item-catalog__name">Топ леопардовый Teola Oksa</span>
+										<span class="item-catalog__bottom">
+											<span class="item-catalog__oldprice">$ 120.00</span>
+											<span class="item-catalog__price">$ 83.00</span>
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<a href="#" class="item-catalog">
+										<span class="item-catalog__image">
+											<img src="img/catalog4.jpg" alt="alt">
+										</span>
+										<span class="item-catalog__name">Топ зебра Teola Oksa</span>
+										<span class="item-catalog__bottom">
+											<span class="item-catalog__oldprice">$ 120.00</span>
+											<span class="item-catalog__price">$ 83.00</span>
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<a href="#" class="item-catalog">
+										<span class="item-catalog__image">
+											<img src="img/catalog3.jpg" alt="alt">
+										</span>
+										<span class="item-catalog__name">Высокие шорты и двусторонний топ</span>
+										<span class="item-catalog__bottom">
+											<span class="item-catalog__oldprice">$ 150.00</span>
+											<span class="item-catalog__price">$ 130.00</span>
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<a href="#" class="item-catalog">
+										<span class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+										</span>
+										<span class="item-catalog__name">Топ леопардовый Teola Oksa</span>
+										<span class="item-catalog__bottom">
+											<span class="item-catalog__oldprice">$ 120.00</span>
+											<span class="item-catalog__price">$ 83.00</span>
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<a href="#" class="item-catalog">
+										<span class="item-catalog__image">
+											<img src="img/catalog4.jpg" alt="alt">
+										</span>
+										<span class="item-catalog__name">Топ зебра Teola Oksa</span>
+										<span class="item-catalog__bottom">
+											<span class="item-catalog__oldprice">$ 120.00</span>
+											<span class="item-catalog__price">$ 83.00</span>
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<a href="#" class="item-catalog">
+										<span class="item-catalog__image">
+											<img src="img/catalog3.jpg" alt="alt">
+										</span>
+										<span class="item-catalog__name">Высокие шорты и двусторонний топ</span>
+										<span class="item-catalog__bottom">
+											<span class="item-catalog__oldprice">$ 150.00</span>
+											<span class="item-catalog__price">$ 130.00</span>
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<a href="#" class="item-catalog">
+										<span class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+										</span>
+										<span class="item-catalog__name">Топ леопардовый Teola Oksa</span>
+										<span class="item-catalog__bottom">
+											<span class="item-catalog__oldprice">$ 120.00</span>
+											<span class="item-catalog__price">$ 83.00</span>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="pager">
+								<a class="prev page-numbers disabled" href="#"><i class="fas fa-chevron-left"></i></a> 
+								<span aria-current="page" class="page-numbers current" href="#">1</span> 
+								<a class="page-numbers" href="#">2</a> 
+								<a class="page-numbers" href="#">3</a> 
+								<span class="page-numbers dots">…</span> 
+								<a class="page-numbers" href="#">10</a> 
+								<a class="next page-numbers" href="#"><i class="fas fa-chevron-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3">
+							<div class="footer__title">Каталог</div>
+							<div class="footer__content">
+								<ul class="footer-list">
+									<li><a href="#">Новинки</a></li>
+									<li><a href="#">Самые желанные</a></li>
+									<li><a href="#">Для Pole Dance</a></li>
+									<li><a href="#">Для фитнеса</a></li>
+									<li><a href="#">Купальники</a></li>
+									<li><a href="#">Дом и повседн одежда</a></li>
+									<li><a href="#">Аксессуары</a></li>
+									<li><a href="#">Ресток</a></li>
+									<li><a href="#">Распродажа</a></li>
+									<li><a href="#">Подарочные карты</a></li>
+									<li><a href="#">Опт</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-6 footer__center">
+							<div class="footer__title">Покупателям</div>
+							<div class="footer__content">
+								<ul class="footer-list">
+									<li><a href="#"> О нас</a></li>
+									<li><a href="#">Опт</a></li>
+									<li><a href="#">Вакансии</a></li>
+									<li><a href="#">Доставка</a></li>
+									<li><a href="#">Таможенная информация</a></li>
+									<li><a href="#">FAQ</a></li>
+									<li><a href="#">Отслеживание заказа</a></li>
+									<li><a href="#">Политика конфиденциальности</a></li>
+									<li><a href="#">Возврат денежных средств</a></li>
+									<li><a href="#">Возврат/обмен</a></li>
+									<li><a href="#">Страница с отзывами</a></li>
+									<li><a href="#">Размерная сетка</a></li>
+									<li><a href="#">Оферта</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3 footer__right">
+							<div class="footer__title">Отношение к пластику</div>
+							<div class="footer__content">
+								<p>Являясь всего лишь частью общей картины, базовые сценарии поведения пользователей объективно рассмотрены соответствующими инстанциями.</p>
+							</div>
+							<a href="#" class="btn-main">подписаться на рассылку</a>
+							<div class="footer__social">
+								<div class="footer__subtitle">Подписаться на нас</div>
+								<ul class="list-social">
+									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+							<div class="footer__payments">
+								<div class="footer__subtitle">Платёжные системы</div>
+								<ul class="list-payments">
+									<li><div class="list-payments__item"><img src="img/payment1.png" alt="alt"></div></li>
+									<li><div class="list-payments__item"><img src="img/payment2.png" alt="alt"></div></li>
+									<li><div class="list-payments__item"><img src="img/payment3.png" alt="alt"></div></li>
+									<li><div class="list-payments__item"><img src="img/payment4.png" alt="alt"></div></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-lg-4">
+								<a href="#">Политика конфиденциальности</a>
+							</div>
+							<div class="col-lg-4 align-center">
+								<p>г. Симферополь © Copyright  2021 г.</p>
+							</div>
+							<div class="col-lg-4">
+								<div class="create">Сделано в <img src="img/copy.svg" alt="alt"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+		</div>
+
+	</div>
+
+	<div id="modal-size" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-modal">Ваш размер распродан? <span>Подпишитесь на уведомления о пополнении запасов!</span></div>
+			<form>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="item-form">
+							<select>
+								<option value="1">XS</option>
+								<option value="1">S</option>
+								<option value="1">M</option>
+								<option value="1">L</option>
+								<option value="1">XL</option>
+								<option value="1">Custom</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="item-form">
+							<input type="email" placeholder="Ваш e-mail" required="required">
+						</div>
+					</div>
+				</div>
+				<div class="modal-wrap__button">
+					<button class="btn-main" type="submit">сообщить о поступлении</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-parametrs" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-modal">Введите ваши параметры</div>
+			<form>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="text" placeholder="Обхват бедер" required="required">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="text" placeholder="Обхват талии" required="required">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="text" placeholder="Обхват груди" required="required">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<textarea placeholder="Обхват тела через плечо и через промежность"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="modal-wrap__button">
+					<button class="btn-main" type="submit">отправить</button>
+				</div>
+			</form>
+		</div>
+	</div>	
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.9"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
