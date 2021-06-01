@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.24" />
+	<link rel="stylesheet" href="css/media.css?ver=1.24" />
+</head>
+<body>
+
+	<div class="wrapper-main"> 
+ 
+		<div class="menu-overlay"></div>
+
+
+		<div class="menu-mobile">
+			<div class="menu-mobile__content">
+				<ul>
+					<li><a href="#"><span class="menu-mobile__icon"><i class="far fa-home-alt"></i></span>Главная</a></li>
+					<li><a href="#"><span class="menu-mobile__icon"><i class="fas fa-list-ul"></i></span>Каталог</a></li>
+					<li><a href="#"><span class="menu-mobile__icon"><img src="img/ic_menu3.png" alt="alt"></span>Покупателям</a></li>
+					<li><a href="#"><span class="menu-mobile__icon"><i class="far fa-bookmark"></i></span>О компании</a></li>
+					<li><a href="#"><span class="menu-mobile__icon"><i class="far fa-newspaper"></i></span>Новости</a></li>
+					<li><a href="#"><span class="menu-mobile__icon"><i class="fal fa-map-marker-alt"></i></span>Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="buttons-header buttons-header_mobile">
+			<a href="#" class="btn-header btn-header_home"><i class="far fa-home-alt"></i></a>
+			<a href="#" class="btn-header"><i class="far fa-user-circle"></i></a>
+			<a href="#" class="btn-header"><i class="far fa-heart"></i></a>
+			<a href="#" class="btn-header btn-header_basket"><i class="far fa-shopping-bag"></i><span class="btn-header__value">1</span></a>
+		</div>
+
+		<div class="wrapper"> 
+
+			<header class="header">
+				<div class="header-top">
+					<div class="container">
+						<div class="header-top__wrap"> 
+							<div class="rating-site">
+								<ul class="rating rating_4">
+									<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+									<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+									<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+									<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+									<li><div class="rating__item"><i class="fas fa-star"></i></div></li>
+								</ul>
+								<div class="rating-site__descr"><strong>4.8</strong> из 5 на основе 7,052 отзывов</div>
+							</div>
+							<ul class="list-language">
+								<li><a href="#">RU</a></li>
+								<li><a href="#">RUB</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="header-middle">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-lg-4 col-3">
+								<div class="search-form">
+									<form>
+										<input type="text" placeholder="Поиск" required="required">
+										<button class="btn-search"><i class="far fa-search"></i></button>
+									</form>
+								</div>
+								<div class="btn-menu">
+									<div class="btn-menu__dot"></div>
+									<div class="btn-menu__dot"></div>
+									<div class="btn-menu__dot"></div>
+									<div class="btn-menu__dot"></div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-6 header-middle__center">
+								<a href="#" class="logo">
+									<img src="img/logo.png" alt="alt">
+								</a>
+							</div>
+							<div class="col-lg-4 col-3">
+								<div class="align-right">
+									<div class="language-block">
+										<div class="language-block__value">RU <i class="far fa-chevron-down"></i></div>
+										<div class="language-block__dropdown">
+											<ul>
+												<li><a href="#">RU</a></li>
+												<li><a href="#">RUB</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="buttons-header">
+									<a href="#" class="btn-header btn-header_home"><i class="far fa-home-alt"></i></a>
+									<a href="#" class="btn-header"><i class="far fa-user-circle"></i></a>
+									<a href="#" class="btn-header"><i class="far fa-heart"></i></a>
+									<a href="#" class="btn-header btn-header_basket"><i class="far fa-shopping-bag"></i><span class="btn-header__value">1</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header-bottom">
+					<div class="container">
+						<ul class="menu">
+							<li><a href="#">Новинки</a></li>
+							<li><a href="#">Самые желанные</a></li>
+							<li><a href="#">Для Pole Dance</a></li>
+							<li><a href="#">Для фитнеса</a></li>
+							<li><a href="#">Купальники</a></li>
+							<li><a href="#">Аксессуары</a></li>
+							<li><a href="#">Для дома</a></li>
+							<li><a href="#">Ресток</a></li>
+							<li><a href="#">Распродажа</a></li>
+							<li><a href="#">Подарочные карты</a></li>
+							<li><a href="#">Опт</a></li>
+						</ul>
+					</div>
+				</div>
+			</header>
+
+			<div class="sizes">
+				<div class="container">
+					<div class="title-section">Размерная сетка</div>
+					<div class="table-block">
+						<div class="table-block__wrap">
+							<div class="title-page">Таблица размеров</div>
+							<div class="table-wrap">
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+											<th>UK 6</th>
+											<th>UK 8</th>
+											<th>UK 10</th>
+											<th>UK 12</th>
+											<th>UK 14</th>
+											<th>UK 16</th>
+											<th>UK 18</th>
+											<th>UK 20</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>UK размер</td>
+											<td>6</td>
+											<td>8</td>
+											<td>10</td>
+											<td>12</td>
+											<td>14</td>
+											<td>16</td>
+											<td>18</td>
+											<td>20</td>
+										</tr>
+										<tr>
+											<td>EU размер</td>
+											<td>34</td>
+											<td>36</td>
+											<td>38</td>
+											<td>40</td>
+											<td>42</td>
+											<td>44</td>
+											<td>46</td>
+											<td>48</td>
+										</tr>
+										<tr>
+											<td>US размер</td>
+											<td>2</td>
+											<td>4</td>
+											<td>6</td>
+											<td>8</td>
+											<td>10</td>
+											<td>12</td>
+											<td>14</td>
+											<td>16</td>
+										</tr>
+										<tr>
+											<td>Грудь</td>
+											<td>81cm - 86cm</td>
+											<td>86cm - 90cm</td>
+											<td>90cm - 95cm</td>
+											<td>95cm - 100cm</td>
+											<td>100cm - 105cm</td>
+											<td>105cm - 110cm</td>
+											<td>110cm - 115c</td>
+											<td>116cm - 121cm</td> 
+										</tr>
+										<tr>
+											<td>Талия</td>
+											<td>61cm - 65cm</td>
+											<td>65cm - 70cm</td>
+											<td>70cm - 75cm</td>
+											<td>75cm - 80cm</td>
+											<td>80cm - 85cm</td>
+											<td>85cm - 90cm</td>
+											<td>91cm - 95cm</td>
+											<td>96cm - 100cm</td>
+										</tr>
+										<tr>
+											<td>Бедра</td>
+											<td>82cm - 88cm</td>
+											<td>88cm - 93cm</td>
+											<td>93cm - 98cm</td>
+											<td>98cm - 103cm</td>
+											<td>103cm - 108cm</td>
+											<td>108cm - 114cm</td>
+											<td>115cm - 118cm</td>
+											<td>119cm - 124cm</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="title-page title-page_block">Индивидуальный пошив под ваш размер</div>
+					<div class="block-form-sizes">
+						<div class="title-form">Введите ваши параметры</div>
+						<form>
+							<div class="row">
+								<div class="col-md-3 col-sm-6">
+									<div class="item-form">
+										<input type="text" placeholder="Обхват бедер" required="required">
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="item-form">
+										<input type="text" placeholder="Обхват талии" required="required">
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="item-form">
+										<input type="text" placeholder="Обхват груди" required="required">
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="item-form">
+										<textarea placeholder="Обхват тела через плечо и через промежность"></textarea>
+									</div>
+								</div>
+							</div>
+							<button class="btn-main">отправить</button>
+						</form>
+					</div>
+					<div class="row">
+						<div class="col-lg-6">
+							<p>Приятно, граждане, наблюдать, как реплицированные с зарубежных источников, современные исследования, превозмогая сложившуюся непростую экономическую ситуацию, объявлены нарушающими общечеловеческие нормы этики и морали. Принимая во внимание показатели успешности, семантический разбор внешних противодействий не оставляет шанса для соответствующих условий активизации. Равным образом, укрепление и развитие внутренней структуры прекрасно подходит для реализации форм воздействия.</p>
+						</div>
+						<div class="col-lg-6">
+							<p>Приятно, граждане, наблюдать, как реплицированные с зарубежных источников, современные исследования, превозмогая сложившуюся непростую экономическую ситуацию, объявлены нарушающими общечеловеческие нормы этики и морали. Принимая во внимание показатели успешности, семантический разбор внешних противодействий не оставляет шанса для соответствующих условий активизации. Равным образом, укрепление и развитие внутренней структуры прекрасно подходит для реализации форм воздействия.</p>
+						</div>
+					</div>
+					<div class="block-ask">
+						<div class="title-middle">Задать свой вопрос</div>
+						<form>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="item-form">
+										<input type="text" placeholder="Имя" required="required">
+									</div>
+									<div class="item-form">
+										<input type="email" placeholder="Е-mail" required="required">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-form">
+										<textarea placeholder="Ваш вопрос"></textarea>
+									</div>
+								</div>
+							</div>
+							<button class="btn-main">отправить</button>
+							<div class="checkbox-wrap">
+								<div class="checkbox checkbox_simple">
+									<label>
+										<input type="checkbox" checked="checked" required="required" />
+										<span>Согласие на обработку персональных данных</span>
+									</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<footer class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3">
+							<div class="footer__title">Каталог</div>
+							<div class="footer__content">
+								<ul class="footer-list">
+									<li><a href="#">Новинки</a></li>
+									<li><a href="#">Самые желанные</a></li>
+									<li><a href="#">Для Pole Dance</a></li>
+									<li><a href="#">Для фитнеса</a></li>
+									<li><a href="#">Купальники</a></li>
+									<li><a href="#">Дом и повседн одежда</a></li>
+									<li><a href="#">Аксессуары</a></li>
+									<li><a href="#">Ресток</a></li>
+									<li><a href="#">Распродажа</a></li>
+									<li><a href="#">Подарочные карты</a></li>
+									<li><a href="#">Опт</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-6 footer__center">
+							<div class="footer__title">Покупателям</div>
+							<div class="footer__content">
+								<ul class="footer-list">
+									<li><a href="#"> О нас</a></li>
+									<li><a href="#">Опт</a></li>
+									<li><a href="#">Вакансии</a></li>
+									<li><a href="#">Доставка</a></li>
+									<li><a href="#">Таможенная информация</a></li>
+									<li><a href="#">FAQ</a></li>
+									<li><a href="#">Отслеживание заказа</a></li>
+									<li><a href="#">Политика конфиденциальности</a></li>
+									<li><a href="#">Возврат денежных средств</a></li>
+									<li><a href="#">Возврат/обмен</a></li>
+									<li><a href="#">Страница с отзывами</a></li>
+									<li><a href="#">Размерная сетка</a></li>
+									<li><a href="#">Оферта</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3 footer__right">
+							<div class="footer__title">Отношение к пластику</div>
+							<div class="footer__content">
+								<p>Являясь всего лишь частью общей картины, базовые сценарии поведения пользователей объективно рассмотрены соответствующими инстанциями.</p>
+							</div>
+							<a href="#" class="btn-main">подписаться на рассылку</a>
+							<div class="footer__social">
+								<div class="footer__subtitle">Подписаться на нас</div>
+								<ul class="list-social">
+									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+							<div class="footer__payments">
+								<div class="footer__subtitle">Платёжные системы</div>
+								<ul class="list-payments">
+									<li><div class="list-payments__item"><img src="img/payment1.png" alt="alt"></div></li>
+									<li><div class="list-payments__item"><img src="img/payment2.png" alt="alt"></div></li>
+									<li><div class="list-payments__item"><img src="img/payment3.png" alt="alt"></div></li>
+									<li><div class="list-payments__item"><img src="img/payment4.png" alt="alt"></div></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-lg-4">
+								<a href="#">Политика конфиденциальности</a>
+							</div>
+							<div class="col-lg-4 align-center">
+								<p>г. Симферополь © Copyright  2021 г.</p>
+							</div>
+							<div class="col-lg-4">
+								<div class="create">Сделано в <img src="img/copy.svg" alt="alt"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+		</div>
+
+	</div>
+
+	<div id="modal-size" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-modal">Ваш размер распродан? <span>Подпишитесь на уведомления о пополнении запасов!</span></div>
+			<form>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="item-form">
+							<select>
+								<option value="1">XS</option>
+								<option value="1">S</option>
+								<option value="1">M</option>
+								<option value="1">L</option>
+								<option value="1">XL</option>
+								<option value="1">Custom</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="item-form">
+							<input type="email" placeholder="Ваш e-mail" required="required">
+						</div>
+					</div>
+				</div>
+				<div class="modal-wrap__button">
+					<button class="btn-main" type="submit">сообщить о поступлении</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-parametrs" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-modal">Введите ваши параметры</div>
+			<form>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="text" placeholder="Обхват бедер" required="required">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="text" placeholder="Обхват талии" required="required">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="text" placeholder="Обхват груди" required="required">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<textarea placeholder="Обхват тела через плечо и через промежность"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="modal-wrap__button">
+					<button class="btn-main" type="submit">отправить</button>
+				</div>
+			</form>
+		</div>
+	</div>	
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script> 
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.24"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
