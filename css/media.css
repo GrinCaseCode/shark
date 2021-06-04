@@ -264,6 +264,10 @@
 		padding-left: 70px;
 		padding-right: 70px;
 	}
+.modal-wrap-card .slider-for {
+    max-width: 298px;
+    margin-left: -30px;
+}
 }
 
 
@@ -1146,6 +1150,22 @@
 	.modal-block .table-block__wrap {
 		padding: 25px 0;
 	}
+	.modal-wrap-card .slider-for {
+		margin-left: 0;
+		margin-right: -15px;
+		max-width: initial;
+	}
+	.modal-wrap-card .card__right {
+		margin-left: 0;
+	}
+	.modal-wrap-card {
+		padding: 15px;
+		padding-top: 40px;
+	}
+	.list-colors-modal {
+    max-width: 348px;
+}
+
 }
 
 
@@ -1278,6 +1298,19 @@
 	.sizes .block-form-sizes {
 		margin-bottom: 25px;
 	}
+	.modal-wrap-card .slider-for__item {
+    height: 393px;
+    width: 300px;
+}
+	.modal-wrap-card .card-btns .btn-main {
+    min-width: 188px;
+    }
+    .modal-wrap-card .card__text {
+    	font-size: 14px;
+    }
+   .modal-wrap-card .card__right p {
+    line-height: 22px;
+}
 }
 @media only screen and (max-width : 380px) {
 	.vacancies .block-form .checkbox_simple {
@@ -1290,6 +1323,12 @@
 	.block-form .checkbox_simple {
 		margin-top: 15px;
 	}
+	.list-colors-modal {
+    max-width: 254px;
+}
+.list-sizes_model .item-size {
+    padding: 0 12px;
+}
 }
 @media only screen and (max-width : 350px) {
 	.rating-site__descr {
@@ -1320,7 +1359,16 @@
 	.item-question__name {
 		font-size: 17px;
 	}
-
+.modal-wrap-card .slider-for__item {
+    height: 360px;
+    width: 245px;
+}
+.list-colors-modal {
+    max-width: 216px;
+}
+.modal-wrap-card .card-btns .btn-main {
+    min-width: 167px;
+}
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {

@@ -321,6 +321,43 @@ $(".sidebar-open").click(function() {
 		]
 	});
 
+	$('.list-colors-modal').slick({
+		arrows: true,
+		dots: false,
+		slidesToShow:10,
+		infinite: false,
+		variableWidth: true,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow:9,
+			}
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow:8,
+			}
+		},
+		{
+			breakpoint: 399,
+			settings: {
+				slidesToShow:7,
+			}
+		},
+		{
+			breakpoint: 370,
+			settings: {
+				slidesToShow:6,
+			}
+		}
+		]
+	});
+
 	$('.slider-reviews-card').slick({
 		dots: true,
 		arrows: false,
@@ -388,7 +425,13 @@ $(".sidebar-open").click(function() {
 	//Документация: http://fancybox.net/howto
 	//<a class="fancybox"><img src="image.jpg" /></a>
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
-	$(".fancybox").fancybox();
+	$(".fancybox").fancybox({
+		 beforeShow : function(){
+      $('.slider-for').slick('setPosition');
+        $('.slider-nav').slick('setPosition');
+         $('.list-colors-modal').slick('setPosition');
+    }
+	});
 
 	$(".fancybox-table").fancybox({
     beforeShow : function(){
