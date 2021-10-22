@@ -1336,8 +1336,13 @@
 		border: none;
 	}
 	.table-wholesaler tr {
+		padding-bottom: 10px;
 		border-bottom: 1px solid #4f5354;
 		margin-bottom: 15px;
+	}
+	.table-wholesaler tr:last-child {
+		padding-bottom: 0;
+		border: none;
 	}
 	.table-wholesaler td {
 		padding: 5px 0;
