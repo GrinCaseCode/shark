@@ -19,8 +19,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.31" />
-	<link rel="stylesheet" href="css/media.css?ver=1.31" />
+	<link rel="stylesheet" href="css/main.css?ver=1.41" />
+	<link rel="stylesheet" href="css/media.css?ver=1.41" />
 </head>
 <body>
 
@@ -44,7 +44,7 @@
 
 		<div class="buttons-header buttons-header_mobile">
 			<a href="#" class="btn-header btn-header_home"><i class="far fa-home-alt"></i></a>
-			<a href="#" class="btn-header"><i class="far fa-user-circle"></i></a>
+			<a href="#modal-login" class="btn-header fancybox"><i class="far fa-user-circle"></i></a>
 			<a href="#" class="btn-header"><i class="far fa-heart"></i></a>
 			<a href="#" class="btn-header btn-header_basket"><i class="far fa-shopping-bag"></i><span class="btn-header__value">1</span></a>
 		</div>
@@ -108,7 +108,7 @@
 								</div>
 								<div class="buttons-header">
 									<a href="#" class="btn-header btn-header_home"><i class="far fa-home-alt"></i></a>
-									<a href="#" class="btn-header"><i class="far fa-user-circle"></i></a>
+									<a href="#modal-login" class="btn-header fancybox"><i class="far fa-user-circle"></i></a>
 									<a href="#" class="btn-header"><i class="far fa-heart"></i></a>
 									<a href="#" class="btn-header btn-header_basket"><i class="far fa-shopping-bag"></i><span class="btn-header__value">1</span></a>
 								</div>
@@ -134,319 +134,293 @@
 					</div>
 				</div>
 			</header>
-
-			<div class="container">
-				<ul class="breadcumbs">
-					<li><a href="#">Главная</a><span>/</span></li>
-					<li><a href="#">Боди</a><span>/</span></li>
-					<li>Цветное боди</li>
-				</ul>
-			</div>
-
-			<div class="card">
+			
+			<div class="ordering">
 				<div class="container">
-					<div class="row">
-						<div class="col-lg-2">
-							<ul class="slider-nav">
-								<li>
-									<div class="slider-nav__item">
-										<img src="img/silde_card1.jpg" alt="alt">
-									</div>
-								</li>
-								<li>
-									<div class="slider-nav__item">
-										<img src="img/silde_card1.jpg" alt="alt">
-									</div>
-								</li>
-								<li>
-									<div class="slider-nav__item">
-										<img src="img/silde_card1.jpg" alt="alt">
-									</div>
-								</li>
-								<li>
-									<div class="slider-nav__item">
-										<img src="img/silde_card1.jpg" alt="alt">
-									</div>
-								</li>
-							</ul>
-						</div>
-						<div class="col-lg-5">
-							<ul class="slider-for">
-								<li>
-									<a href="img/silde_card1.jpg" class="slider-for__item fancybox" rel="group2">
-										<img src="img/silde_card1.jpg" alt="alt"><i class="far fa-search-plus"></i>
-									</a>
-								</li>
-								<li>
-									<a href="img/silde_card1.jpg" class="slider-for__item fancybox" rel="group2">
-										<img src="img/silde_card1.jpg" alt="alt">
-									</a>
-								</li>
-								<li>
-									<a href="img/silde_card1.jpg" class="slider-for__item fancybox" rel="group2">
-										<img src="img/silde_card1.jpg" alt="alt">
-									</a>
-								</li>
-								<li>
-									<a href="img/silde_card1.jpg" class="slider-for__item fancybox" rel="group2">
-										<img src="img/silde_card1.jpg" alt="alt">
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-lg-5">
-							<div class="card__right">
-								<div class="title-page">цветное боди</div>
-								<div class="prices-wrap">
-									<div class="price-new">$ 83.00</div>
-									<div class="price-old">$ 120.00</div>
-								</div>
-								<div class="card__text">
-									<p>Боди – это самый удобный вариант верха для танцевального костюма, так как этот предмет одежды плотно облегает тело. А это означает, что он никогда не выбьется из-за пояса юбки или брюк, какие бы движения вы не совершали. Это качество выгодно отличает боди от обычных топов и блузок.</p>
-								</div>
-								<div class="colors-wrap">
-									<div class="card__head">Цвет</div>
-									<ul class="list-colors">
-										<li><div class="item-color" style="background: #a58ebb;"></div></li>
-										<li><div class="item-color" style="background: #ffffff;"></div></li>
-										<li><div class="item-color" style="background: #f3bf22;"></div></li>
-										<li><div class="item-color" style="background: #74dc79;"></div></li>
-										<li><div class="item-color" style="background: #69abe2;"></div></li>
-										<li><div class="item-color" style="background: #ef4c4c;"></div></li>
-										<li><div class="item-color" style="background: #302f2a;"></div></li>
-										<li><div class="item-color" style="background: #1ec5de;"></div></li>
-										<li><div class="item-color" style="background: #ef41e9;"></div></li>
-										<li><div class="item-color" style="background: #7b9112;"></div></li>
-										<li><div class="item-color" style="background: #ffde00;"></div></li>
-										<li><div class="item-color" style="background: #2d24db;"></div></li>
-										<li><div class="item-color" style="background: #a58ebb;"></div></li>
-										<li><div class="item-color" style="background: #ffffff;"></div></li>
-										<li><div class="item-color" style="background: #f3bf22;"></div></li>
-										<li><div class="item-color" style="background: #74dc79;"></div></li>
-									</ul>
-								</div>
-								<div class="sizes-wrap">
-									<div class="card__head"><p>Размер</p> <a href="#modal-table" class="link-main fancybox-table">Таблица размеров</a></div>
-									<ul class="list-sizes">
-										<li><a href="#" class="item-size">XS</a></li>
-										<li><a href="#" class="item-size active">S</a></li>
-										<li><a href="#modal-size" class="item-size disabled fancybox">M</a></li>
-										<li><a href="#modal-size" class="item-size disabled fancybox">L</a></li>
-										<li><a href="#" class="item-size">XL</a></li>
-										<li><a href="#" class="item-size">Custom</a></li>
-									</ul>
-									<div class="sizes-wrap__bottom">
-										<a href="#modal-parametrs" class="link-main fancybox">Индивидуальный пошив под Ваш размер</a>
-									</div>
-								</div>
-								<div class="card__head">Количество:</div>
-								<div class="quantity">
-									<div class="quantity-button quantity-down"><i class="fas fa-chevron-down"></i></div>
-									<input type="number" min="1" step="1" value="2">
-									<div class="quantity-button quantity-up"><i class="fas fa-chevron-up"></i></div>
-								</div>
-								<div class="card__bottom">
-									<div class="card-btns">
-										<a href="#" class="btn-main btn-main_transparent">в корзину</a>
-										<a href="#" class="btn-like"><i class="fal fa-heart"></i></a>
-									</div>
-									<div class="social-wrap">
-										<p>Поделиться в соц сетях</p>
-										<ul class="list-social list-social_main">
-											<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fab fa-vk"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tabs-wrap">
-						<ul class="tabs">
-							<li class="active"><a href="#tab1">Отзывы</a></li>
-							<li><a href="#tab2">Характеристики</a></li>
-						</ul>
-						<div class="tab-container">
-							<div class="tab-pane" id="tab1">
-								<div class="row">
-									<div class="col-lg-3">
-										<div class="reviews__left">
-											<div class="logo-trustpilot">
-												<img src="img/logo-trust.svg" alt="alt">
-												<img src="img/stars.svg" alt="alt">
+					<div class="title-section">оформление заказа</div>
+					<div class="row row_order">
+						<div class="col-lg-9">
+							<div class="item-ordering">
+								<a href="#" class="item-ordering__image">
+									<img src="img/basket1.jpg" alt="alt">
+								</a>
+								<div class="item-ordering__content">
+									<div class="item-ordering__info">
+										<a href="#" class="title-middle">Топ зебра Teola Oksa</a>
+										<div class="item-ordering__units">
+											<div class="item-ordering__unit">
+												<div class="item-ordering__title">Цвет:</div>
+												<div class="item-color" style="background: #a58ebb"></div>
 											</div>
-											<div class="name-review">На основе 7176 отзывов</div>
+											<div class="item-ordering__unit">
+												<div class="item-ordering__title">Размер:</div>
+												<div class="item-ordering__value">XS</div>
+											</div>
+											<div class="item-ordering__unit">
+												<div class="item-ordering__title">Цена:</div>
+												<div class="item-price">45 155 <span>₽</span></div>
+											</div>
+											<div class="item-ordering__unit">
+												<div class="item-ordering__title">Количество:</div>
+												<div class="item-ordering__value">2</div>
+											</div>
 										</div>
 									</div>
-									<div class="col-lg-9">
-										<ul class="slider-reviews-card">
-											<li>
-												<div class="item-review">
-													<div class="item-review__head">
-														<div class="stars-review">
-															<img src="img/stars.svg" alt="alt">
-														</div>
-														<div class="item-review__date">6 дней назад</div>
-													</div>
-													<p><strong>Фантастическое обслуживание клиентов</strong></p>
-													<p> Фантастическое обслуживание клиентов! Оперативный ответ на любые вопросы. Супер быстрая доставка, которая хорошо упакована и потрясающий выбор всего, что вам нужно для шеста, стрейча.</p>
-													<div class="name-review">На основе 7176 отзывов</div>
-												</div>
-											</li>
-											<li>
-												<div class="item-review">
-													<div class="item-review__head">
-														<div class="stars-review">
-															<img src="img/stars.svg" alt="alt">
-														</div>
-														<div class="item-review__date">6 дней назад</div>
-													</div>
-													<p><strong>Фантастическое обслуживание клиентов</strong></p>
-													<p> Фантастическое обслуживание клиентов! Оперативный ответ на любые вопросы. Супер быстрая доставка, которая хорошо упакована и потрясающий выбор всего, что вам нужно для шеста, стрейча.</p>
-													<div class="name-review">На основе 7176 отзывов</div>
-												</div>
-											</li>
-											<li>
-												<div class="item-review">
-													<div class="item-review__head">
-														<div class="stars-review">
-															<img src="img/stars.svg" alt="alt">
-														</div>
-														<div class="item-review__date">6 дней назад</div>
-													</div>
-													<p><strong>Фантастическое обслуживание клиентов</strong></p>
-													<p> Фантастическое обслуживание клиентов! Оперативный ответ на любые вопросы. Супер быстрая доставка, которая хорошо упакована и потрясающий выбор всего, что вам нужно для шеста, стрейча.</p>
-													<div class="name-review">На основе 7176 отзывов</div>
-												</div>
-											</li>
-										</ul>
+									<div class="item-ordering__right">
+										<div class="item-price item-price_old">45 155 <span>₽</span></div>
+										<div class="item-price item-price_main">43 160 <span>₽</span></div>
+										<div class="item-ordering__descr">Экономия 42.20 ₽</div>
 									</div>
 								</div>
 							</div>
-							<div class="tab-pane" id="tab2">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<br>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="item-ordering">
+								<a href="#" class="item-ordering__image">
+									<img src="img/basket1.jpg" alt="alt">
+								</a>
+								<div class="item-ordering__content">
+									<div class="item-ordering__info">
+										<a href="#" class="title-middle">Топ зебра Teola Oksa</a>
+										<div class="item-ordering__units">
+											<div class="item-ordering__unit">
+												<div class="item-ordering__title">Цвет:</div>
+												<div class="item-color" style="background: #a58ebb"></div>
+											</div>
+											<div class="item-ordering__unit">
+												<div class="item-ordering__title">Размер:</div>
+												<div class="item-ordering__value">XS</div>
+											</div>
+											<div class="item-ordering__unit">
+												<div class="item-ordering__title">Цена:</div>
+												<div class="item-price">45 155 <span>₽</span></div>
+											</div>
+											<div class="item-ordering__unit">
+												<div class="item-ordering__title">Количество:</div>
+												<div class="item-ordering__value">2</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-ordering__right">
+										<div class="item-price item-price_old">45 155 <span>₽</span></div>
+										<div class="item-price item-price_main">43 160 <span>₽</span></div>
+										<div class="item-ordering__descr">Экономия 42.20 ₽</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-ordering">
+								<a href="#" class="item-ordering__image">
+									<img src="img/basket1.jpg" alt="alt">
+								</a>
+								<div class="item-ordering__content">
+									<div class="item-ordering__info">
+										<a href="#" class="title-middle">Топ зебра Teola Oksa</a>
+										<div class="item-ordering__units">
+											<div class="item-ordering__unit">
+												<div class="item-ordering__title">Цвет:</div>
+												<div class="item-color" style="background: #a58ebb"></div>
+											</div>
+											<div class="item-ordering__unit">
+												<div class="item-ordering__title">Размер:</div>
+												<div class="item-ordering__value">XS</div>
+											</div>
+											<div class="item-ordering__unit">
+												<div class="item-ordering__title">Цена:</div>
+												<div class="item-price">45 155 <span>₽</span></div>
+											</div>
+											<div class="item-ordering__unit">
+												<div class="item-ordering__title">Количество:</div>
+												<div class="item-ordering__value">2</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-ordering__right">
+										<div class="item-price item-price_old">45 155 <span>₽</span></div>
+										<div class="item-price item-price_main">43 160 <span>₽</span></div>
+										<div class="item-ordering__descr">Экономия 42.20 ₽</div>
+									</div>
+								</div>
+							</div>
+							<div class="unit-ordering active">
+								<div class="unit-ordering__head">Регион доставки <i class="fas fa-chevron-down"></i></div>
+								<div class="unit-ordering__content" style="display: block;">
+									<div class="ordering-region">
+										<div class="ordering-region__item">
+											<div class="title-ordering">Тип плательщика:</div>
+											<div class="radios-wrap">
+												<div class="radio-text">
+													<label>
+														<input type="radio" name="redio-text1" checked="checked" />
+														<span>Физическое лицо</span>
+													</label>
+												</div>
+												<div class="radio-text">
+													<label>
+														<input type="radio" name="redio-text1" />
+														<span>Юридическое лицо</span>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="ordering-region__item ordering-region__item_location">
+											<div class="title-ordering">Местоположение:</div>
+											<div class="item-form">
+												<input type="text" value="Симферополь, ул.Ленина, 33, кв.17">
+												<div class="clear-input"><i class="far fa-times"></i></div>
+											</div>
+										</div>
+										<div class="ordering-region__item">
+											<div class="title-ordering">Индекс:</div>
+											<div class="item-form item-form_index">
+												<input type="text">
+											</div>
+										</div>
+									</div>
+									<div class="buttons-ordering">
+										<button class="btn-main btn-main_transparent">назад</button>
+										<button class="btn-main">вперед</button>
+									</div>
+								</div>
+							</div>
+							<div class="unit-ordering active">
+								<div class="unit-ordering__head">Доставка <i class="fas fa-chevron-down"></i></div>
+								<div class="unit-ordering__content" style="display: block;">
+									<div class="title-ordering">Способ доставки:</div>
+									<div class="delivery-ordering">
+										<div class="radios-wrap">
+											<div class="radio-text">
+												<label>
+													<input type="radio" name="redio-text2" checked="checked" />
+													<span>Самовывоз</span>
+												</label>
+											</div>
+											<div class="radio-text">
+												<label>
+													<input type="radio" name="redio-text2" />
+													<span>Курьер</span>
+												</label>
+											</div>
+											<div class="radio-text">
+												<label>
+													<input type="radio" name="redio-text2" />
+													<span>Почта России</span>
+												</label>
+											</div>
+										</div>
+										<div class="price-ordering">Стоимость: <div class="item-price">0 <span>₽</span></div></div>
+									</div>
+									<div class="buttons-ordering">
+										<button class="btn-main btn-main_transparent">назад</button>
+										<button class="btn-main">вперед</button>
+									</div>
+								</div>
+							</div>
+							<div class="unit-ordering active">
+								<div class="unit-ordering__head">Самовывоз <i class="fas fa-chevron-down"></i></div>
+								<div class="unit-ordering__content" style="display: block;">
+									<div id="map-ordering"></div>
+									<div class="title-ordering">Пункты самовывоза:</div>
+									<div class="radios-wrap">
+										<div class="radio-text">
+											<label>
+												<input type="radio" name="redio-text3" checked="checked" />
+												<span>Симферополь, ул.Ленина, 2</span>
+											</label>
+										</div>
+										<div class="radio-text">
+											<label>
+												<input type="radio" name="redio-text3" />
+												<span>Симферополь, ул.Самокиша, 9</span>
+											</label>
+										</div>
+									</div>
+									<div class="contact-ordering"><strong>Телефон:</strong> 8 (495) 212 85 06</div>
+									<div class="contact-ordering"><strong>Режим работы:</strong> Пн.-Пт. с 9:00 до 20:00, Сб.-Вс. с 11:00 до 18:00</div>
+									<div class="buttons-ordering">
+										<button class="btn-main btn-main_transparent">назад</button>
+										<button class="btn-main">вперед</button>
+									</div>
+								</div>
+							</div>
+							<div class="unit-ordering active">
+								<div class="unit-ordering__head">Оплата <i class="fas fa-chevron-down"></i></div>
+								<div class="unit-ordering__content" style="display: block;">
+									<div class="title-ordering">Способ оплаты:</div>
+									<div class="delivery-ordering">
+										<div class="radios-wrap">
+											<div class="radio-text">
+												<label>
+													<input type="radio" name="redio-text4" checked="checked" />
+													<span>Банковская карта</span>
+												</label>
+											</div>
+											<div class="radio-text">
+												<label>
+													<input type="radio" name="redio-text4" />
+													<span>Наличными курьеру</span>
+												</label>
+											</div>
+										</div>
+										<div class="price-ordering">Стоимость: <div class="item-price">0 <span>₽</span></div></div>
+									</div>
+									<div class="buttons-ordering">
+										<button class="btn-main btn-main_transparent">назад</button>
+										<button class="btn-main">вперед</button>
+									</div>
+								</div>
+							</div>
+							<div class="unit-ordering active">
+								<div class="unit-ordering__head">Покупатель <i class="fas fa-chevron-down"></i></div>
+								<div class="unit-ordering__content" style="display: block;">
+									<div class="row">
+										<div class="col-md-5">
+											<div class="item-form item-form_page">
+												<div class="title-input">ФИО</div>
+												<input type="text" placeholder="ФИО" required="required">
+											</div>
+											<div class="item-form item-form_page">
+												<div class="title-input">Email</div>
+												<input type="email" placeholder="Email" required="required">
+											</div>
+											<div class="item-form item-form_page">
+												<div class="title-input">Телефон</div>
+												<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+											</div>
+										</div>
+										<div class="col-md-7">
+											<div class="item-form item-form_page">
+												<div class="title-input">Адрес доставки</div>
+												<input type="text" placeholder="Начните вводить адрес" required="required">
+											</div>
+											<div class="item-form item-form_page">
+												<div class="title-input">Комментарий</div>
+												<textarea placeholder="Ваш комментарий" required="required"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="buttons-ordering">
+										<button class="btn-main btn-main_transparent">назад</button>
+										<button class="btn-main">вперед</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="order-block">
+								<div class="title-middle">Оформить заказ</div>
+								<div class="item-form">
+									<input type="text" placeholder="Код купона для скидки">
+								</div>
+								<div class="order-block__line">
+									<div class="order-block__left"><strong>Итого:</strong> 3 товара на сумму</div>
+									<div class="order-block__right">
+										<div class="order-block__oldprice">45 155 ₽</div>
+										<div class="order-block__price">43 160 ₽</div>
+									</div>
+								</div>
+								<div class="order-block__descr">Экономия 42.20 ₽</div>
+								<a href="#" class="btn-main">Оформить заказ</a>
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-
-			<div class="products">
-				<div class="container">
-					<div class="title-section title-section_center">похожие товары</div>
-				</div>
-				<div class="slider-wrap-catalog">
-					<ul class="slider-catalog">
-						<li>
-							<a href="#modal-card" class="item-catalog fancybox">
-								<span class="item-catalog__image">
-									<img src="img/catalog4.jpg" alt="alt">
-								</span>
-								<span class="item-catalog__name">Топ зебра Teola Oksa</span>
-								<span class="item-catalog__bottom">
-									<span class="item-catalog__oldprice">$ 120.00</span>
-									<span class="item-catalog__price">$ 83.00</span>
-								</span>
-							</a>
-						</li>
-						<li>
-							<a href="#modal-card" class="item-catalog fancybox">
-								<span class="item-catalog__image">
-									<img src="img/catalog3.jpg" alt="alt">
-								</span>
-								<span class="item-catalog__name">Высокие шорты и двусторонний топ</span>
-								<span class="item-catalog__bottom">
-									<span class="item-catalog__oldprice">$ 150.00</span>
-									<span class="item-catalog__price">$ 130.00</span>
-								</span>
-							</a>
-						</li>
-						<li>
-							<a href="#modal-card" class="item-catalog fancybox">
-								<span class="item-catalog__image">
-									<img src="img/catalog1.jpg" alt="alt">
-								</span>
-								<span class="item-catalog__name">Топ леопардовый Teola Oksa</span>
-								<span class="item-catalog__bottom">
-									<span class="item-catalog__oldprice">$ 120.00</span>
-									<span class="item-catalog__price">$ 83.00</span>
-								</span>
-							</a>
-						</li>
-						<li>
-							<a href="#modal-card" class="item-catalog fancybox">
-								<span class="item-catalog__image">
-									<img src="img/catalog2.jpg" alt="alt">
-								</span>
-								<span class="item-catalog__name">Боди Fly</span>
-								<span class="item-catalog__bottom">
-									<span class="item-catalog__oldprice">$ 130.00</span>
-									<span class="item-catalog__price">$ 58.00</span>
-								</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="products section-gray">
-				<div class="container">
-					<div class="title-section title-section_center">рекомендуем</div>
-				</div>
-				<div class="slider-wrap-catalog">
-					<ul class="slider-catalog">
-						<li>
-							<a href="#modal-card" class="item-catalog fancybox">
-								<span class="item-catalog__image">
-									<img src="img/catalog4.jpg" alt="alt">
-								</span>
-								<span class="item-catalog__name">Топ зебра Teola Oksa</span>
-								<span class="item-catalog__bottom">
-									<span class="item-catalog__oldprice">$ 120.00</span>
-									<span class="item-catalog__price">$ 83.00</span>
-								</span>
-							</a>
-						</li>
-						<li>
-							<a href="#modal-card" class="item-catalog fancybox">
-								<span class="item-catalog__image">
-									<img src="img/catalog3.jpg" alt="alt">
-								</span>
-								<span class="item-catalog__name">Высокие шорты и двусторонний топ</span>
-								<span class="item-catalog__bottom">
-									<span class="item-catalog__oldprice">$ 150.00</span>
-									<span class="item-catalog__price">$ 130.00</span>
-								</span>
-							</a>
-						</li>
-						<li>
-							<a href="#modal-card" class="item-catalog fancybox">
-								<span class="item-catalog__image">
-									<img src="img/catalog1.jpg" alt="alt">
-								</span>
-								<span class="item-catalog__name">Топ леопардовый Teola Oksa</span>
-								<span class="item-catalog__bottom">
-									<span class="item-catalog__oldprice">$ 120.00</span>
-									<span class="item-catalog__price">$ 83.00</span>
-								</span>
-							</a>
-						</li>
-						<li>
-							<a href="#modal-card" class="item-catalog fancybox">
-								<span class="item-catalog__image">
-									<img src="img/catalog2.jpg" alt="alt">
-								</span>
-								<span class="item-catalog__name">Боди Fly</span>
-								<span class="item-catalog__bottom">
-									<span class="item-catalog__oldprice">$ 130.00</span>
-									<span class="item-catalog__price">$ 58.00</span>
-								</span>
-							</a>
-						</li>
-					</ul>
 				</div>
 			</div>
 
@@ -698,12 +672,12 @@
 						</div>
 						<div class="card__head">Модель</div>
 						<ul class="list-sizes list-sizes_model">
-								<li><a href="#" class="item-size">Top</a></li>
-								<li><a href="#" class="item-size">Tanna</a></li>
-								<li><a href="#" class="item-size">Cherry</a></li>
-								<li><a href="#" class="item-size">Boston</a></li>
-								<li><a href="#" class="item-size">Penny</a></li>
-							</ul>
+							<li><a href="#" class="item-size">Top</a></li>
+							<li><a href="#" class="item-size">Tanna</a></li>
+							<li><a href="#" class="item-size">Cherry</a></li>
+							<li><a href="#" class="item-size">Boston</a></li>
+							<li><a href="#" class="item-size">Penny</a></li>
+						</ul>
 						<div class="card__head">Количество:</div>
 						<div class="quantity">
 							<div class="quantity-button quantity-down"><i class="fas fa-chevron-down"></i></div>
@@ -812,7 +786,61 @@
 			</div>
 		</div>
 	</div>
- 
+
+	<div id="modal-login" class="modal-block">
+		<div class="login-wrap">
+			<ul class="tabs-login">
+				<li class="active"><a href="#tab_login1">для розницы</a></li>
+				<li><a href="#tab_login2">для опта</a></li>
+			</ul>
+			<div class="tab-container-login">
+				<div class="tab-pane-login" id="tab_login1">
+					<div class="title-middle">Регистрация</div>
+					<form>
+						<div class="item-form">
+							<input type="text" placeholder="Имя" required="required">
+						</div>
+						<div class="item-form">
+							<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+						</div>
+						<button class="btn-main">Зарегистрироваться</button>
+						<div class="checkbox-wrap">
+							<div class="checkbox checkbox_simple">
+								<label>
+									<input type="checkbox" checked="checked" required="required" />
+									<span>Согласие на обработку персональных данных</span>
+								</label>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="tab-pane-login" id="tab_login2">
+					<div class="title-middle">Регистрация</div>
+					<form>
+						<div class="item-form">
+							<input type="text" placeholder="Имя" required="required">
+						</div>
+						<div class="item-form">
+							<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+						</div>
+						<div class="item-form">
+							<input type="text" placeholder="ИНН" required="required">
+						</div>
+						<button class="btn-main">Зарегистрироваться</button>
+						<div class="checkbox-wrap">
+							<div class="checkbox checkbox_simple">
+								<label>
+									<input type="checkbox" checked="checked" required="required" />
+									<span>Согласие на обработку персональных данных</span>
+								</label>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -827,7 +855,32 @@
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.31"></script>
+<script src="js/common.js?ver=1.41"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<script>
+	$(document).ready(function() {
+		ymaps.ready(init);
+
+		function init() {
+
+			var myMap = new ymaps.Map('map-ordering', {
+				center: [44.952231, 34.104728],
+				zoom: 18
+			}, {
+				searchControlProvider: 'yandex#search'
+			});		
+
+			myPlacemark1 = new ymaps.Placemark([44.952231, 34.104728], {
+				balloonContent: '<p class="text-map">Симферополь, ул.Ленина, 2</p>'
+			}, {
+				 preset: 'islands#redIcon'
+			});
+			myMap.controls.remove('searchControl');
+			myMap.behaviors.disable('scrollZoom');
+			myMap.geoObjects.add(myPlacemark1);
+		}
+	});
+</script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
