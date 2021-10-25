@@ -2396,6 +2396,37 @@ blockquote p {
 	line-height: 20px;
 	font-weight: 700;
 }
+.btn-main_basket {
+	top: 250px;
+	right: 20px;
+	padding: 0 28px;	
+	position: fixed;
+	box-shadow: 0px 11px 12px -8px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	font-weight: 500;
+	z-index: 700;
+}
+.btn-main_basket i {
+	font-size: 18px;	
+	margin-right: 22px;	
+}
+.btn-value {
+	font-size: 14px;
+	font-weight: 700;
+	width: 20px;
+	height: 20px;
+	top: 12px;
+	left: 40px;
+	background-color: #b6cdb1;
+	border-radius: 50%;
+	color: #ffffff;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+}
 .item-wholesale {
 	font-size: 13px;
 	line-height: 20px;
@@ -2546,11 +2577,11 @@ blockquote p {
 .order-block__oldprice {
 	font-size: 18px;
 	margin-bottom: 15px;
-font-family: 'Bebas Neue', sans-serif;
-font-weight: 400;
-text-decoration: line-through;
-color: #6c8b8d;
-white-space: nowrap;
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 400;
+	text-decoration: line-through;
+	color: #6c8b8d;
+	white-space: nowrap;
 }
 .order-block__price {
 	font-size: 30px;
@@ -2578,10 +2609,10 @@ white-space: nowrap;
 }
 .order-block__descr {
 	font-size: 14px;
-line-height: 1.2;
-font-weight: 500;
-margin-bottom: 18px;
-color: #6c8b8d;
+	line-height: 1.2;
+	font-weight: 500;
+	margin-bottom: 18px;
+	color: #6c8b8d;
 	text-align: center;
 }
 .order-block .btn-main {
@@ -2601,9 +2632,9 @@ color: #6c8b8d;
 }
 .item-basket__available {
 	font-size: 14px;
-line-height: 1.2;
-font-weight: 500;
-color: #6c8b8d;
+	line-height: 1.2;
+	font-weight: 500;
+	color: #6c8b8d;
 }
 .item-basket {
 	padding: 19px 0;
@@ -2612,14 +2643,14 @@ color: #6c8b8d;
 	position: relative;
 }
 .item-basket__info {
-display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 .item-basket__image {
 	width: 128px;
-height: 180px;
-margin-right: 35px;
-flex: none;
+	height: 180px;
+	margin-right: 35px;
+	flex: none;
 }
 .item-basket__image img {
 	height: 100%;
@@ -2642,7 +2673,7 @@ flex: none;
 	font-size: 24px;
 	font-family: 'Bebas Neue', 'Cera Pro';
 	font-weight: 600;
-color: #6c8b8d;
+	color: #6c8b8d;
 }
 .item-price span {
 	font-weight: 400;
@@ -2676,9 +2707,9 @@ color: #6c8b8d;
 .item-ordering__descr,
 .item-basket__descr {
 	font-size: 14px;
-line-height: 1.2;
-font-weight: 500;
-color: #6c8b8d;
+	line-height: 1.2;
+	font-weight: 500;
+	color: #6c8b8d;
 }
 .item-ordering__right {
 	margin-top: 0;
@@ -2704,9 +2735,9 @@ color: #6c8b8d;
 }
 .item-basket__unit .item-size {
 	cursor: initial;
-	    border: 1px solid rgba(108,139,141,0.5);
+	border: 1px solid rgba(108,139,141,0.5);
 	background-color: rgba(157,192,173,0.0);
-	    color: #4f5354;
+	color: #4f5354;
 }
 .item-ordering .title-middle {
 	padding-bottom: 0;
@@ -2720,13 +2751,13 @@ color: #6c8b8d;
 }
 .item-ordering__image {
 	width: 60px;
-height: 85px;
-margin-right: 32px;
+	height: 85px;
+	margin-right: 32px;
 	display: block;
 	flex: none;
 }
 .item-ordering__image img {
-		height: 100%;
+	height: 100%;
 	width: 100%;
 	object-fit: cover;
 	font-family: 'object-fit: cover;';
@@ -2807,10 +2838,10 @@ margin-right: 32px;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-background-color: rgba(157,192,173,0.0);
-border: 1px solid rgba(108,139,141,0.5);
-cursor: pointer;
-transition: all 0.3s;
+	background-color: rgba(157,192,173,0.0);
+	border: 1px solid rgba(108,139,141,0.5);
+	cursor: pointer;
+	transition: all 0.3s;
 }
 .radio-text label input:checked + span {
 	background-color: #9dc0ad;
@@ -2908,35 +2939,4 @@ transition: all 0.3s;
 }
 .ordering-region__item_location input {
 	padding-right: 27px;
-}
-.btn-main_basket {
-	top: 250px;
-	right: 20px;
-	padding: 0 28px;	
-	position: fixed;
-	box-shadow: 0px 11px 12px -8px rgba(0, 0, 0, 0.25);
-border-radius: 5px;
-font-weight: 500;
-	z-index: 700;
-}
-.btn-main_basket i {
-	font-size: 18px;	
-	margin-right: 22px;	
-}
-.btn-value {
-		font-size: 14px;
-	font-weight: 700;
-	width: 20px;
-	height: 20px;
-	top: 12px;
-	left: 40px;
-    background-color: #b6cdb1;
-	border-radius: 50%;
-	color: #ffffff;
-	position: absolute;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	color: #fff;
 }
