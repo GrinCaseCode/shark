@@ -44,6 +44,25 @@ $(document).ready(function() {
 		$(selectTab2).fadeIn(200);
 	});
 
+	$(".unit-ordering__head").click(function() {
+		$(this).siblings(".unit-ordering__content").slideToggle(200);
+		$(this).parent().toggleClass("active");
+	});
+
+	$('.item-wholesale__link').click(function(event) {
+		event.preventDefault();
+		$(".tab-pane-wholesaler").fadeOut(0);
+		var selectTab3 = $(this).attr("href");
+		$(selectTab3).fadeIn(200);
+		if ($(".tab-pane-wholesaler").is(":visible")) {
+			$("body, html").animate({
+			scrollTop: 30
+		}, 300);
+		return false;
+		}
+		
+	});
+
 
 
 	//плавный скролл
