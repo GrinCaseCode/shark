@@ -1430,6 +1430,18 @@ max-width: 245px;
 	.unit-ordering__content {
 		padding-bottom: 25px;
 	}
+	.btn-main_basket {
+		top: auto;
+		bottom: 70px;
+		right: 10px;
+	}
+	.btn-value {
+		top: 3px;
+		font-size: 12px;
+		width: 15px;
+		height: 15px;
+		left: 32px;
+	}
 }
 
 

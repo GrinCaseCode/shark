@@ -2909,3 +2909,34 @@ transition: all 0.3s;
 .ordering-region__item_location input {
 	padding-right: 27px;
 }
+.btn-main_basket {
+	top: 250px;
+	right: 20px;
+	padding: 0 28px;	
+	position: fixed;
+	box-shadow: 0px 11px 12px -8px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+font-weight: 500;
+	z-index: 700;
+}
+.btn-main_basket i {
+	font-size: 18px;	
+	margin-right: 22px;	
+}
+.btn-value {
+		font-size: 14px;
+	font-weight: 700;
+	width: 20px;
+	height: 20px;
+	top: 12px;
+	left: 40px;
+    background-color: #b6cdb1;
+	border-radius: 50%;
+	color: #ffffff;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+}
